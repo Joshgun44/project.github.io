@@ -1,0 +1,105 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+</head>
+
+<body>
+  <h1 class="center"></h1>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="home.html">SDP</a>
+      </div>
+      <ul class="nav navbar-nav">
+            <li class="active"><a href='#'>Home</a></li>
+            <li id="about_nav"><a href="#">About us</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center">
+    <h1>Face Recognition and Detection</h1>
+  </div>
+
+
+
+
+  <div class="wrapper">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card1" >
+           <a href="https://www.ada.edu.az">
+            <img src="https://pkimgcdn.peekyou.com/adff362baf19ff5da3d4e97090215ed6.jpeg"
+              alt="Avatar" style="width:100% "   href="https://www.ada.edu.az">
+
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="card1" >
+           <a href="https://www.unibank.az/en">
+            <img src="https://www.unibank.az/assets/img/logo.png"
+              alt="Avatar" style="width:100%"  href="https://www.ada.edu.az">
+
+            </a>
+          </div>
+        </div>
+          
+        
+      </div>
+    </div>
+  </div>
+ 
+</body>
+<footer>
+
+  <div class="container3">
+    <div>
+      <p>Location : Baku, Azerbaijan</p>
+    </div>
+    <div>
+      <p>30.04.2022</p>
+    </div>
+
+  </div>
+
+
+</footer>
+    
+     <script type="text/javascript">
+        
+        var aboutnav = document.getElementById("about_nav")
+        var contactnav = document.getElementById("contact_nav")
+        var rulesnav = document.getElementById("rules_nav")
+        var active = document.getElementsByClassName("active")
+        
+        active.item(0).addEventListener('click', (e) => {
+            window.location.href=window.location;
+        });
+
+        aboutnav.addEventListener('click', (e) => {
+            window.location.href="about.html";
+        });
+        
+         contactnav.addEventListener('click', (e) => {
+            window.location.href="contact.html";
+        });
+        
+        rulesnav.addEventListener('click', (e) => {
+            window.location.href="rules.html";
+        });
+        
+        
+
+        
+
+    </script>
+
+
+</html>

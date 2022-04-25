@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    
+   
+</head>
+    
+    
+<body>
+    <h1 class="center"></h1>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="home.html">SDP</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li id="home_nav"><a href='#'>Home</a></li>
+                <li class="active"><a href="about.html">About us</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>Who we are?</h1>
+
+    </div>
+
+    <div class="aboutcontainer">
+        <div class="aboutcard">
+            <a href="https://www.linkedin.com/in/emil-aliyev-58752917b/">
+                <h2>Emil Aliyev</h2>
+
+                <p>I am Senior year student at ADA University in SITE faculty. My major is BsIT.
+                </p>
+            </a>
+
+        </div>
+
+
+
+        <div class="aboutcard">
+
+            <a href="https://www.linkedin.com/in/joshgun-asadullayev-9489a71a9/">
+                <h2>Joshgun Asadullayev</h2>
+
+
+                <p>I am Senior year student at ADA University in SITE faculty. My major is BsCS.
+
+
+                </p>
+            </a>
+            
+           
+        </div>
+        
+        <div class="aboutcard">
+         <a href="https://www.linkedin.com/in/murad-suleymanli-4254031a9/">
+                <h2>Murad Suleymanli</h2>
+
+
+                <p>I am Senior year student at ADA University in SITE faculty. My major is BsCS
+
+
+
+                </p>
+            </a>
+            
+           
+        </div>
+        
+        <div class="aboutcard">
+             <a href="https://www.linkedin.com/in/inayat-alisgandarov-b9b74a176/">
+                <h2>Inayet Alisgenderov</h2>
+
+
+                <p>I am Senior year student at ADA University in SITE faculty. My major is BsCS
+
+
+                </p>
+            </a>
+        
+        </div>
+    </div>
+
+    <hr style="height: 5px">
+
+<!--
+    <h2>Purpose of the project</h2>
+
+    <div class="container2">
+
+        <div id="purpose" style="height:150px;padding-top:20px;">
+
+
+            <br>
+            <ul>
+                <li>To learn more about HTML & CSS</li>
+                <li>To learn JavaScript</li>
+                <li>To improve our research skills</li>
+                <li>To improve our team-work skills</li>
+                <li>To get a good grade : D</li>
+            </ul>
+
+        </div>
+-->
+
+<!--    </div>-->
+
+
+    <footer>
+
+        <div class="container3">
+            <div>
+                <p>Location : Baku, Azerbaijan</p>
+            </div>
+            <div>
+                <p>30.04.2022</p>
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+    
+    <script type="text/javascript">
+        
+        var homenav = document.getElementById("home_nav")
+        var contactnav = document.getElementById("contact_nav")
+        var rulesnav = document.getElementById("rules_nav")
+        var active = document.getElementsByClassName("active")
+        
+        active.item(0).addEventListener('click', (e) => {
+            window.location.href=window.location;
+        });
+
+        homenav.addEventListener('click', (e) => {
+            window.location.href="home.html";
+        });
+        
+         contactnav.addEventListener('click', (e) => {
+            window.location.href="contact.html";
+        });
+        
+        rulesnav.addEventListener('click', (e) => {
+            window.location.href="rules.html";
+        });
+        
+        
+
+        
+
+    </script>
+
+
+
+</html>
